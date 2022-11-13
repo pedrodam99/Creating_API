@@ -16,7 +16,7 @@ src
 │   │   │   │   UsersController
 │   │   │   │   ProductsController.js
 │   │   │  
-│   │   └───models
+│   └───models
 │   │   │   │   Product.js
 |   ...
 ...
