@@ -13,11 +13,11 @@ src
 │   │
 │   │
 │   └───controllers
-│   │   │   │   UsersController
-│   │   │   │   ProductsController.js
+│   │   │   UsersController
+│   │   │   ProductsController.js
 │   │   │  
 │   └───models
-│   │   │   │   Product.js
+│   │   │   Product.js
 |   ...
 ...
 ```
