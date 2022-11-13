@@ -1,19 +1,23 @@
-<div align="center">
-<h1 align="center"> MarketAPI NodeJS </h1>
-Uma API simples para controle de caixa de um mercadinho.
-</div>
+<h1> MarketAPI NodeJS </h1>
+Criei uma API simples utilizando <b> NodeJS + ExpressJS </b> para controle de caixa de um mercado, com fins de aprender melhor o padrão MVC e conceitos de API REST. <br><br>
+Nesse projeto ficou tudo separado, dessa forma cada arquivo tinha sua responsabilidade (como arquivo de rotas, arquivo de controller e o arquivo de models), deixando o programa mais manutenível, e todas as requisições foram testadas no insomnia.
 
-<h2> O que é? </h2>
-Uma API focada nos principais aspectos REST. Ela foi feita utilizando *NodeJS + Express*. <br>
-Nela foram implementados os métodos GET, POST, PUT e DELETE. E as requisiçòes foram todas testadas no insomnia.
-
-<h2> Mais detalhes... </h2>
-Foram utilizadas ferramentas como babel, router do express e outras ferramentas bem bacanas. 
-Esse projeto foi utilizando principos de MVC, nele temos controllers e models.
-
-
-
-
-
-
-
+Estrutura das pastas: <br>
+```
+src
+│   app.js
+│   index.js
+│   routes.js
+|
+└───app
+│   │
+│   │
+│   └───controllers
+│   │   │   │   UsersController
+│   │   │   │   ProductsController.js
+│   │   │  
+│   │   └───models
+│   │   │   │   Product.js
+|   ...
+...
+```
